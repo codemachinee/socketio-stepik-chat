@@ -57,4 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
         app.store.messages.push(data)
     }, ".chat-messages")
 
+    app.go("selectroom")
+
 })
